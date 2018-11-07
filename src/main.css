@@ -1,0 +1,10 @@
+#src {
+  font-family: Menlo,monospace;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+#result {
+  font-family: Menlo,monospace;
+  font-size: 14px;
+}

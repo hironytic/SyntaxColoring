@@ -1,0 +1,27 @@
+{
+  "name": "syntaxcoloring",
+  "version": "0.1.0",
+  "description": "Add syntax highlighting to code snippet",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify src/main.js -o app/main.js -p tinyify -p [ parcelify -o app/main.css ]",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "style": [
+    "node_modules/bootstrap/dist/css/bootstrap.min.css",
+    "node_modules/highlight.js/styles/xcode.css",
+    "src/main.css"
+  ],
+  "author": "Hironori Ichimiya",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^4.1.3",
+    "browserify": "^16.2.3",
+    "highlight.js": "^9.13.1",
+    "jquery": "^3.3.1",
+    "parcelify": "^2.2.0",
+    "popper.js": "^1.14.4",
+    "tinyify": "^2.4.3"
+  }
+}
